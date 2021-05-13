@@ -36,13 +36,19 @@ AUTH_USER_MODEL = 'users.UserProfile'
 # Application definition
 
 INSTALLED_APPS = [
-    'MxShop.apps.users.apps.UsersConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'MxShop.apps.users.apps.UsersConfig',
+    'MxShop.extra_apps.DjangoUeditor',
+    'MxShop.apps.goods.apps.GoodsConfig',
+    'MxShop.apps.trade.apps.TradeConfig',
+    'MxShop.apps.user_operation.apps.UserOperationConfig',
+    'MxShop.apps.operation.apps.OperationConfig',
+
 ]
 
 MIDDLEWARE = [

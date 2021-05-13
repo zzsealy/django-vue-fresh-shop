@@ -1,0 +1,1 @@
+default_app_config = 'MxShop.apps.users.apps.GoodsConfig'

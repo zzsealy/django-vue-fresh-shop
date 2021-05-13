@@ -49,5 +49,10 @@ class GoodsCategoryBrand(models.Model):
 
     def __str__(self) -> str:
         return self.name
-    
+
+class Goods(models.Model):
+    """
+    商品
+    """
+    pass
 
