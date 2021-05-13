@@ -1,0 +1,1 @@
+default_app_config = 'shop.extra_apps.DjangoUeditor.apps.DjangoueditorConfig'
