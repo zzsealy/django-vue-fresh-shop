@@ -1,9 +1,0 @@
-{
-    "python.pythonPath": "/Users/sealy/Documents/study/python/django-vue-fresh-shop/venv/bin/python3",
-    "python.linting.flake8Enabled": true,
-    "python.formatting.provider": "autopep8",
-    "python.linting.flake8Args": ["--max-line-length=248"], //设置单行最长字符限制
-    "python.linting.pylintEnabled": false, // 关闭pylint工具
-    "python.autoComplete.addBrackets": true,
-    "python.analysis.completeFunctionParens": true,
-}

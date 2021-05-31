@@ -11,7 +11,9 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-import sys
+from shop.local_setting import DATABASES
+
+DATABASES = DATABASES
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 PROJECT_ROOT = os.path.dirname(__file__)
@@ -87,18 +89,7 @@ WSGI_APPLICATION = 'shop.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mx_shop',
-        'ATOMIC_REQUESTS': True,
-        'USER': 'root',
-        'PASSWORD': 'drq12345.',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'OPTIONS': {'init_command': 'SET default_storage_engine=INNODB;'}
-    },
-}
+
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
